@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """Script to set the primary, secondary and tertiary WLC names and IPs
-after retrieving all the APs of a Catalyst 9800 Wireless Controllet"""
+after retrieving all the APs of a Catalyst 9800 Wireless Controller"""
 
 
 # Imports
