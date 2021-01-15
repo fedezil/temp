@@ -57,35 +57,35 @@ else:
 # Print a summary of the settings to be pushed and ask the end user for a confirmation
 if secondaryWlcName == "null":
     print("""
-The script will set the primary WLC name and IP to the following:
+    The script will set the primary WLC name and IP to the following:
 
-Primary WLC name: {}
-Primary WLC IP: {}
+    Primary WLC name: {}
+    Primary WLC IP: {}
     """.format(primaryWlcName, primaryWlcIp))
 
 elif tertiaryWlcName == "null":
     print("""
-The script will set primary and secondary WLC names and IPs to the following:
+    The script will set primary and secondary WLC names and IPs to the following:
 
-Primary WLC name: {}
-Primary WLC IP: {}
+    Primary WLC name: {}
+    Primary WLC IP: {}
 
-Secondary WLC name: {}
-Secondary WLC IP: {}
+    Secondary WLC name: {}
+    Secondary WLC IP: {}
     """.format(primaryWlcName, primaryWlcIp, secondaryWlcName, secondaryWlcIp))
 
 else:
     print("""
-The script will set the primary, secondary and tertiary WLC names and IPs to the following:
+    The script will set the primary, secondary and tertiary WLC names and IPs to the following:
 
-Primary WLC name: {}
-Primary WLC IP: {}
+    Primary WLC name: {}
+    Primary WLC IP: {}
 
-Secondary WLC name: {}
-Secondary WLC IP: {}
+    Secondary WLC name: {}
+    Secondary WLC IP: {}
 
-Tertiary WLC name: {}
-Tertiary WLC IP: {}
+    Tertiary WLC name: {}
+    Tertiary WLC IP: {}
     """.format(primaryWlcName, primaryWlcIp, secondaryWlcName, secondaryWlcIp, tertiaryWlcName, tertiaryWlcIp))
 
 answer = input("Are you ok with these changes? (yes/no) ")
