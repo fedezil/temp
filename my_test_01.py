@@ -5,7 +5,6 @@ after retrieving all the APs of a Catalyst 9800 Wireless Controller"""
 
 
 # Imports
-from collections import OrderedDict
 import re
 
 
