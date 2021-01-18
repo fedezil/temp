@@ -1,5 +1,5 @@
-def hello(name):
-    print('Hello ' + name)
+def plusOne(number):
+    return number + 1
 
-hello('Alice')
-hello('Bob') 
+newNumber = plusOne(5)
+print(newNumber)
